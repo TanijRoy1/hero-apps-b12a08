@@ -55,9 +55,9 @@ const Header = () => {
           </div>
           <NavLink to={`/`} className="flex items-center gap-2 cursor-pointer">
             <img src={Logo} className="w-15 h-15" alt="Logo" />
-            <a className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            <p className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               HERO.IO
-            </a>
+            </p>
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
