@@ -1,9 +1,10 @@
 import React from 'react';
+import AllApps from '../../Components/AllApps/AllApps';
 
 const Apps = () => {
     return (
-        <div>
-            <h2>App</h2>
+        <div className='bg-[#F5F5F5] px-4'>
+            <AllApps></AllApps>
         </div>
     );
 };

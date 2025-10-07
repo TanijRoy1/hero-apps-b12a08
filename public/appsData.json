@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Y7CjP08V/unnamed.png",
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify lets you listen to millions of songs and podcasts for free. Discover new artists, make playlists, and share your favorite tracks with friends. Enjoy personalized recommendations, offline playback, and seamless streaming across all your devices.",
+    "size": 96,
+    "reviews": 34500000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 23400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Rk1jNcxm/OIP.jpg",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 2,
+    "description": "Instagram is a simple, fun, and creative way to capture, edit, and share photos, videos, and messages with friends and family. Stay connected with the world through stories, reels, and posts that express your life and creativity.",
+    "size": 72,
+    "reviews": 141000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 82000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/3mhNKzMF/Snapchat-Logo.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 3,
+    "description": "Snapchat is a fast and fun way to share the moment with your friends and family. Chat, send snaps, explore the world through Spotlight and Snap Map, and stay connected with what matters most to you.",
+    "size": 95,
+    "reviews": 34700000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 19000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FbPjML8Y/OIP-1.jpg",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 4,
+    "description": "WhatsApp Messenger is a fast, simple, and secure messaging app used by over 2 billion people across the world. It lets you stay in touch with friends and family through text, voice, and video calls—without SMS or phone charges.",
+    "size": 61,
+    "reviews": 188000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 27000000 },
+      { "name": "5 star", "count": 149000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/V0944m6m/OIP-2.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 5,
+    "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on speed and security. It’s super-fast, simple, and free. Users can send messages, photos, videos, and files of any type securely through end-to-end encryption.",
+    "size": 80,
+    "reviews": 14000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ym3VdrbP/OIP-3.jpg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Google Maps helps you navigate the world with real-time GPS navigation, traffic updates, local business information, and accurate directions for driving, walking, or biking. Explore nearby restaurants, events, and landmarks easily.",
+    "size": 143,
+    "reviews": 16700000,
+    "ratingAvg": 4.1,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FkqkQ2FJ/boliviainteligente-8-KJym-JAC9s-A-unsplash.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 7,
+    "description": "Netflix is the world’s leading subscription service for watching TV episodes and movies on your phone. Discover award-winning series, documentaries, and feature films across every genre, personalized just for you.",
+    "size": 120,
+    "reviews": 14000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TB642bZk/alexander-shatov-I4p0-Fcj-DBJI-unsplash.jpg",
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "id": 8,
+    "description": "TikTok is the leading destination for short-form mobile video. On TikTok, you can express yourself through creative, fun, and entertaining videos while discovering trends and creators from around the globe.",
+    "size": 98,
+    "reviews": 65200000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 47200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kspMqCKF/zulfugar-karimov-Hywc-R2-JY-ks-unsplash.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "YouTube is the world’s largest video-sharing platform, allowing users to upload, view, and interact with millions of videos. Watch tutorials, music, gaming, vlogs, and live streams across any topic you can imagine.",
+    "size": 132,
+    "reviews": 154000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zHnHLH1Q/alexander-shatov-9-Zjd7-PE-FRM-unsplash.jpg",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn",
+    "id": 10,
+    "description": "LinkedIn is the world’s largest professional network on the internet. Use LinkedIn to find the right job or internship, connect and strengthen professional relationships, and learn the skills you need to succeed in your career.",
+    "size": 79,
+    "reviews": 4700000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dsVz3cyh/ilgmyzin-m-SIFEZ8-WW1-M-unsplash.jpg",
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "id": 11,
+    "description": "Learn languages with fun, quick lessons that feel like games! Duolingo helps you practice speaking, reading, listening, and writing in over 30 languages including Spanish, French, German, Italian, and more.",
+    "size": 60,
+    "reviews": 14000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 10400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hrwH7C4/rubaitul-azad-u-WAm-S4-M0-RWk-unsplash.jpg",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 12,
+    "description": "Canva makes design simple for everyone. Create stunning social media posts, videos, presentations, logos, and more using thousands of free templates and design tools right from your phone or computer.",
+    "size": 88,
+    "reviews": 10500000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0jjTY0qw/dima-solomin-UKAVi-H-h-FMk-unsplash.jpg",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 13,
+    "description": "Pinterest is the place to explore inspiration. Discover ideas for recipes, home design, style, and more. Save pins, organize boards, and turn your creative dreams into reality.",
+    "size": 74,
+    "reviews": 9200000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 6300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pvC5j7FS/rubaitul-azad-G7-QBIdaw-IDo-unsplash.jpg",
+    "title": "Zoom - One Platform to Connect",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 14,
+    "description": "Zoom is a communication platform that brings people together through video meetings, phone, chat, and webinars. Stay connected with colleagues, classmates, or friends with high-quality video and screen sharing features.",
+    "size": 125,
+    "reviews": 4000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gF30z3HW/brett-jordan-0-Fytazj-Hhxs-unsplash.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 15,
+    "description": "Reddit is a community network where people can dive into their interests, hobbies, and passions. Share content, discuss ideas, and connect with millions of users across thousands of active communities.",
+    "size": 85,
+    "reviews": 3200000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  }
+]
