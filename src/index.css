@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.navLink.active {
+    color: #632ee3;
+    text-decoration: underline;
+}
