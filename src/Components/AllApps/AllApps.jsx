@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AppCard from "../AppCard/AppCard";
 import { NavLink } from "react-router";
-import { SeacrhContext } from "../../Root/Root";
 import Loading from "../Loading/Loading";
 
 const AllApps = ({ search, setSearch, searchedApps, loading }) => {

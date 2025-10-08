@@ -29,7 +29,7 @@ const Apps = () => {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search Apps"
-            className="border border-gray-300 rounded-md block bg-blue-200 outline-none py-2 px-4"
+            className="border border-gray-300 rounded-md block bg-blue-200 outline-none py-2 px-4 max-w-xs w-full"
           />
         </div>
         <AllApps

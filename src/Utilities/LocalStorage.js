@@ -17,4 +17,11 @@ const addIdToLS = (id) => {
     }
 }
 
-export {getStoredAppsId, addIdToLS};
+const removeIdFromLS = (id) => {
+    const storedIds = getStoredAppsId("installedAppsId");
+    const remainingIds = storedIds.filter(storedId => storedId !== id);
+    console.log(remainingIds);
+    localStorage.setItem("installedAppsId", JSON.stringify(remainingIds));
+}
+
+export {getStoredAppsId, addIdToLS, removeIdFromLS};

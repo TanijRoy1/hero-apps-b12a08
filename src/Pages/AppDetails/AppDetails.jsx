@@ -17,11 +17,6 @@ import {
 import { addIdToLS, getStoredAppsId } from "../../Utilities/LocalStorage";
 import { toast, ToastContainer } from "react-toastify";
 import Loading from "../../Components/Loading/Loading";
-// const data = [
-//   { name: "Page A", uv: 400, pv: 2400, amt: 2400 },
-//   { name: "Page A", uv: 300, pv: 2400, amt: 2400 },
-//   { name: "Page A", uv: 600, pv: 2400, amt: 2400 },
-// ];
 
 const AppDetails = () => {
   const { apps, loading } = useLoadApps();
@@ -52,10 +47,7 @@ const AppDetails = () => {
   } = app;
 
   
-  // const installedAppsId = getStoredAppsId();
-  // const installedApps = apps.filter(app => installedAppsId.includes(app.id));
   const isInstalled = installedIds.includes(id);
-  // console.log(isInstalled);
   const handleInstall = () => {
     addIdToLS(id);
     setInstalledIds([...installedIds, id]);
