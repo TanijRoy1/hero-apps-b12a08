@@ -8,7 +8,8 @@ const HomeApps = () => {
     const slicedApps = apps.slice(0,8);
 
     return (
-        <div className='container mx-auto py-10 mt-10'>
+        <div className="px-4">
+            <div className='container mx-auto py-10 mt-10'>
             <h1 className='text-center text-blue-950 font-bold text-3xl'>Trending Apps</h1>
             <p className='text-center text-blue-950'>Explore All Trending Apps on the Market developed by us</p>
 
@@ -21,6 +22,7 @@ const HomeApps = () => {
             <div className='text-center my-10'>
                 <NavLink to={`/apps`} className={`flex items-center gap-2 cursor-pointer inline px-6 py-2.5 text-white font-semibold rounded-lg bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] hover:opacity-90 transition`}>Show All</NavLink>
             </div>
+        </div>
         </div>
     );
 };

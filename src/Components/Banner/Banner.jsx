@@ -5,7 +5,8 @@ import Hero from "../../assets/hero.png";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto text-center">
+    <div className="px-4">
+      <div className="container mx-auto text-center">
       <div className="flex flex-col gap-5 py-10">
         <h1 className="text-6xl text-blue-950 font-bold">We Build <br /> <span className="font-black bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">Productive</span> Apps</h1>
         <p className="max-w-xl mx-auto text-blue-950">
@@ -27,6 +28,7 @@ const Banner = () => {
       <div className="flex items-center justify-center max-w-2xl mx-auto">
         <img src={Hero} className="w-full" alt="Hero" />
       </div>
+    </div>
     </div>
   );
 };

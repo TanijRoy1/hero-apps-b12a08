@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router";
 import Logo from "../../assets/logo.png";
 import GithubLogo from "../../assets/github.png";
+import { SeacrhContext } from "../../Root/Root";
 
 const Header = () => {
+  const {setSearch} = useContext(SeacrhContext);
   return (
     <div className="px-4 shadow-sm">
       <div className="navbar container mx-auto">
@@ -38,6 +40,7 @@ const Header = () => {
               <li>
                 <NavLink
                   to={`/apps`}
+                  onClick={() => setSearch("")}
                   className={`navLink text-lg font-semibold`}
                 >
                   Apps
@@ -68,7 +71,9 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to={`/apps`} className={`navLink text-lg font-semibold`}>
+              <NavLink to={`/apps`}
+               onClick={()=>setSearch("")} 
+               className={`navLink text-lg font-semibold`}>
                 Apps
               </NavLink>
             </li>
