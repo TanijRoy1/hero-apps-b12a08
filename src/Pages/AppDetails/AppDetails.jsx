@@ -16,6 +16,7 @@ import {
 } from "recharts";
 import { addIdToLS, getStoredAppsId } from "../../Utilities/LocalStorage";
 import { toast, ToastContainer } from "react-toastify";
+import Loading from "../../Components/Loading/Loading";
 // const data = [
 //   { name: "Page A", uv: 400, pv: 2400, amt: 2400 },
 //   { name: "Page A", uv: 300, pv: 2400, amt: 2400 },
@@ -24,15 +25,15 @@ import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const { apps, loading } = useLoadApps();
-  const { Appid } = useParams();
-  const convertedId = parseInt(Appid);
+  const { appId } = useParams();
+  const convertedId = parseInt(appId);
 
   const [installedIds, setInstalledIds] = useState(getStoredAppsId());
   useEffect(() => {
     setInstalledIds(getStoredAppsId());
   }, [])
 
-  if (loading) return <div>Loading app details...</div>;
+  if (loading) return <Loading></Loading>;
 
   const app = apps.find((app) => app.id === convertedId);
   if (!app) return <AppNotFound />;

@@ -2,10 +2,13 @@ import React from 'react';
 import useLoadApps from '../../Hooks/useLoadApps';
 import AppCard from '../AppCard/AppCard';
 import { NavLink } from 'react-router';
+import Loading from '../Loading/Loading';
 
 const HomeApps = () => {
-    const {apps} = useLoadApps();
+    const {apps, loading} = useLoadApps();
     const slicedApps = apps.slice(0,8);
+
+    if (loading) return <Loading></Loading>;
 
     return (
         <div className="px-4">
