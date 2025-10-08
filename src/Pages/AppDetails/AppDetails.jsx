@@ -58,7 +58,7 @@ const AppDetails = () => {
     <div className="px-4 bg-[#F5F5F5]">
       <div className="container mx-auto py-10">
 
-        <div className="flex items-stretch gap-8 text-blue-950">
+        <div className="flex sm:flex-row flex-col items-stretch gap-8 text-blue-950">
           <div className="w-60">
             <img
               className="w-full h-full rounded-md object-cover"
@@ -75,13 +75,13 @@ const AppDetails = () => {
               </span>
             </p>
             <hr className="text-gray-400 my-4" />
-            <div className="flex items-center gap-10 mb-3">
+            <div className="flex items-center md:gap-10 gap-3 mb-3">
               <div className="flex flex-col gap-0.5 items-center">
                 <img src={DownloadIcon} className="w-7 h-7" alt="Download" />
                 <p>Downloads</p>
                 <p className="text-3xl font-black">{downloads / 1000000}M</p>
               </div>
-              <div className="flex flex-col gap-0.5 items-center">
+              <div className="flex flex-col gap-0.5 text-center items-center">
                 <img src={RatingIcon} className="w-7 h-7" alt="Rating" />
                 <p>Average Ratings</p>
                 <p className="text-3xl font-black">{ratingAvg}</p>

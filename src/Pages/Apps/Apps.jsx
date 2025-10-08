@@ -20,7 +20,7 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
 
-        <div className="flex my-6 items-center justify-between">
+        <div className="flex sm:flex-row flex-col sm:gap-0 gap-3 my-6 items-center justify-between">
           <p className="text-blue-950 font-bold text-2xl">
             ({searchedApps.length}) Apps Found
           </p>

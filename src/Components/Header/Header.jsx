@@ -56,9 +56,9 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <NavLink to={`/`} className="flex items-center gap-2 cursor-pointer">
-            <img src={Logo} className="w-15 h-15" alt="Logo" />
-            <p className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          <NavLink to={`/`} className="flex items-center sm:gap-2 gap-0.5 cursor-pointer">
+            <img src={Logo} className="sm:w-15 w-7 sm:h-15 h-7" alt="Logo" />
+            <p className="sm:text-2xl text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               HERO.IO
             </p>
           </NavLink>
@@ -88,7 +88,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://github.com/TanijRoy1" target="_blank" className="flex items-center gap-2 cursor-pointer px-4 py-2 text-white font-semibold rounded-lg bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] hover:opacity-90 transition">
+          <a href="https://github.com/TanijRoy1" target="_blank" className="flex items-center sm:gap-2 gap-1 cursor-pointer sm:px-4 px-2.5 py-2 text-white font-semibold rounded-lg bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] hover:opacity-90 transition">
             <img src={GithubLogo} alt="Github" />
             Contribute
           </a>

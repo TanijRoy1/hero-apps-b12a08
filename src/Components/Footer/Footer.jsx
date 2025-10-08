@@ -3,8 +3,10 @@ import Logo from "../../assets/logo.png"
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-      <aside>
+    <footer className="bg-neutral text-neutral-content px-4">
+      <div className="container mx-auto">
+        <div className="flex sm:flex-row flex-col sm:gap-0 gap-4 justify-between py-8">
+            <aside>
         <div className="flex items-center gap-2">
             <img src={Logo} className="w-15 h-15" alt="Logo" />
             <p className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
@@ -57,6 +59,9 @@ const Footer = () => {
           </a>
         </div>
       </nav>
+        </div>
+      <p className="text-center border-t border-gray-400 py-4">Copyright © 2025 - All right reserved</p>
+      </div>
     </footer>
   );
 };

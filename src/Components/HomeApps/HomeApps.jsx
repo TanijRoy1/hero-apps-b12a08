@@ -16,7 +16,7 @@ const HomeApps = () => {
             <h1 className='text-center text-blue-950 font-bold text-3xl'>Trending Apps</h1>
             <p className='text-center text-blue-950'>Explore All Trending Apps on the Market developed by us</p>
 
-            <div className='grid lg:grid-cols-4 gap-4 grid-cols-2 mt-6'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mt-6'>
                 {
                     slicedApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
                 }
