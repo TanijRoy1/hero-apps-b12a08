@@ -9,11 +9,11 @@ const Root = () => {
   const [search, setSearch] = useState("");
   return (
     <div>
-      <SeacrhContext value={{ search, setSearch }}>
+      <SeacrhContext.Provider value={{ search, setSearch }}>
         <Header></Header>
         <Outlet></Outlet>
         <Footer></Footer>
-      </SeacrhContext>
+      </SeacrhContext.Provider>
     </div>
   );
 };

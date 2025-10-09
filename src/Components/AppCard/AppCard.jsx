@@ -7,7 +7,7 @@ const AppCard = ({app}) => {
     const {id, image, title, downloads, ratingAvg} = app;
     return (
         <Link to={`/apps/${id}`}>
-         <div className='bg-white shadow-md rounded-md p-3 flex flex-col h-full'>
+         <div className='bg-white shadow-md rounded-md p-3 flex flex-col h-full transform hover:-translate-y-1.5 duration-500'>
             <img src={image} className='w-full h-55 object-cover rounded-sm border border-gray-300' alt={title} />
             <h1 className='text-xl font-semibold my-2 flex-1'>{title}</h1>
             <div className='flex items-center justify-between'>

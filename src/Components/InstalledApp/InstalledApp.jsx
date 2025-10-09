@@ -8,11 +8,11 @@ const InstalledApp = ({app, handleUninstall}) => {
     
     return (
         <div className='bg-white rounded-sm shadow-md p-3 flex items-center justify-between'>
-            <div className='flex items-center gap-4'>
-                <img src={image} className='w-20 h-20 object-cover rounded' alt={title} />
+            <div className='flex items-center sm:gap-4 gap-2'>
+                <img src={image} className='sm:w-20 w-18 h-18 sm:h-20 object-cover rounded' alt={title} />
                 <div className='flex flex-col gap-3'>
-                    <h1 className='text-blue-950 font-bold text-2xl'>{title}</h1>
-                    <div className='flex items-center gap-5'>
+                    <h1 className='text-blue-950 font-bold sm:text-2xl text-lg'>{title}</h1>
+                    <div className='flex items-center sm:gap-5 gap-2'>
                         <div className='flex items-center gap-1'>
                             <img src={DownloadIcon} className='w-4' alt="Downloan Icon" /> 
                             <p className='text-green-700 font-medium'>{downloads/1000000}M</p>
@@ -25,7 +25,7 @@ const InstalledApp = ({app, handleUninstall}) => {
                     </div>
                 </div>
             </div>
-            <button onClick={()=>handleUninstall(id)} className='bg-green-600 cursor-pointer text-white py-1.5 px-4 rounded font-medium'>Uninstall</button>
+            <button onClick={()=>handleUninstall(id)} className='bg-green-600 cursor-pointer text-white py-1.5 sm:px-4 px-2 rounded font-medium'>Uninstall</button>
         </div>
     );
 };

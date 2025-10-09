@@ -76,7 +76,7 @@ const AppDetails = () => {
             </p>
             <hr className="text-gray-400 my-4" />
             <div className="flex items-center md:gap-10 gap-3 mb-3">
-              <div className="flex flex-col gap-0.5 items-center">
+              <div className="flex flex-col gap-0.5 items-center text-center">
                 <img src={DownloadIcon} className="w-7 h-7" alt="Download" />
                 <p>Downloads</p>
                 <p className="text-3xl font-black">{downloads / 1000000}M</p>
@@ -86,7 +86,7 @@ const AppDetails = () => {
                 <p>Average Ratings</p>
                 <p className="text-3xl font-black">{ratingAvg}</p>
               </div>
-              <div className="flex flex-col gap-0.5 items-center">
+              <div className="flex flex-col gap-0.5 items-center text-center">
                 <img src={ReviewIcon} className="w-7 h-7" alt="Review" />
                 <p>Total Reviews</p>
                 <p className="text-3xl font-black">{reviews / 1000}K</p>

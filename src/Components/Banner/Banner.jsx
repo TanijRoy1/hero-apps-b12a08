@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="flex flex-col gap-5 py-10">
         <h1 className="sm:text-6xl text-4xl text-blue-950 font-bold">We Build <br /> <span className="font-black bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">Productive</span> Apps</h1>
         <p className="max-w-xl mx-auto text-blue-950">
-          At HERO.IO, we craft innovative apps designed to make everyday life
+          At <span className="font-semibold">HERO.IO</span>, we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting.Our goal is to turn your ideas
           into digital experiences that truly make an impact.
         </p>

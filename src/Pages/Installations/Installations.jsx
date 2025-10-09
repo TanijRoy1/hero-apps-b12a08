@@ -57,7 +57,10 @@ const Installations = () => {
             </select>
           </label>
         </div>
-        <div className="flex flex-col gap-4">
+        {
+          sortedInstalledApps.length === 0
+          ?<h1 className="text-blue-950 font-bold text-2xl text-center py-5">No Installed Apps Available</h1>
+          :<div className="flex flex-col gap-4">
           {sortedInstalledApps.map((app) => (
             <InstalledApp
               key={app.id}
@@ -66,6 +69,7 @@ const Installations = () => {
             ></InstalledApp>
           ))}
         </div>
+        }
         <ToastContainer className={`absolute`}></ToastContainer>
       </div>
     </div>
